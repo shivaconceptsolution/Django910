@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Welcome in HTML Page</h1>
+<form action="sq" method="post">
+{%	csrf_token %}
+<input type="text" name="txtnum1" value="{{res1}}" />
+<br>
+<br>
+<input type="submit" name="btnsubmit" value="Calculate" />
+
+</form>
+{{res}}
+</body>
+</html>
